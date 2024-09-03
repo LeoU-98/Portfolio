@@ -21,7 +21,8 @@ function DesktopNav() {
           Contact Me
         </a>
       </li>
-      <li className="cursor-pointer rounded-lg bg-gradient-to-r from-violet-600 to-violet-900 px-10 py-2 text-center hover:bg-gradient-to-l">
+      <li className="fourth cursor-pointer rounded-lg bg-black px-10 py-2 text-center">
+        {/* <li className="cursor-pointer rounded-lg bg-gradient-to-r from-violet-600 to-violet-900 px-10 py-2 text-center hover:bg-gradient-to-l"> */}
         <a href="/Hire">Hire Me</a>
       </li>
     </ul>

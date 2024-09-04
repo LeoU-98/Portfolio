@@ -1,6 +1,7 @@
 function ExperienceCard() {
   return (
-    <div className="mx-auto flex min-h-72 w-fit max-w-[430px] flex-col gap-3 rounded-lg border-2 border-violet-700 p-6 text-white sm:max-w-none">
+    <div className="xl:maw-w-[60%] mx-auto flex min-h-72 flex-col gap-3 rounded-lg border-2 border-violet-700 p-6 text-white md:max-w-[80%] lg:max-w-[70%]">
+      {/* <div className="mx-auto flex min-h-72 w-fit max-w-[430px] flex-col gap-3 rounded-lg border-2 border-violet-700 p-6 text-white sm:max-w-none"> */}
       <h3 className="text-lg">Junior Web Developer at Digital Solution</h3>
       <p className="w-fit rounded-lg bg-gradient-to-r from-violet-600 to-violet-900 p-2 text-sm">
         June 2020 - December 2021

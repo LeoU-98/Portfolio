@@ -1,6 +1,6 @@
 function ContactForm() {
   return (
-    <div className="mx-auto max-w-[430px] rounded-lg px-4 lg:mx-0 xl:max-w-[510px] 2xl:max-w-[530px]">
+    <div className="px-4">
       <form className="flex min-h-96 flex-col justify-center gap-3 text-white">
         <div className="flex items-center justify-between gap-2">
           <input
@@ -28,7 +28,8 @@ function ContactForm() {
           name="message"
           placeholder="Message"
         />
-        <button className="rounded-lg bg-gradient-to-r from-violet-600 to-violet-900 py-2 text-white transition-all duration-300 hover:bg-gradient-to-l hover:via-indigo-600 focus:outline-none focus:ring-2 focus:ring-violet-500 active:translate-y-3">
+        <button className="rounded-lg bg-violet-800 py-3 font-medium uppercase text-white transition-all duration-500 hover:bg-white hover:text-violet-900 focus:outline-none focus:ring-2 focus:ring-violet-500 active:translate-y-3">
+          {/* <button className="rounded-lg bg-gradient-to-r from-violet-600 to-violet-900 py-2 text-white transition-all duration-500 hover:bg-gradient-to-l hover:via-indigo-600 focus:outline-none focus:ring-2 focus:ring-violet-500 active:translate-y-3"> */}
           Send
         </button>
       </form>

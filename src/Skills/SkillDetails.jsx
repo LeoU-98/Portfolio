@@ -17,7 +17,7 @@ function SkillDetails({ details }) {
                   <h3>{skill.skillTitle}</h3>
                   <p>{skill.percentage}</p>
                 </div>
-                <div className="h-[5px] overflow-hidden rounded-md bg-violet-500">
+                <div className="h-[5px] overflow-hidden rounded-md bg-gray-700">
                   <div
                     className="h-full w-0 rounded-md bg-gradient-to-r from-violet-600 to-violet-900 transition-all duration-1000"
                     style={{

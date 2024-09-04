@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import propTypes from 'prop-types';
-import { projectsData } from '../data';
+import { projectsData } from '../utils/data';
+import ProjectCard from './ProjectCard';
 
 /////////////////////////////////////////
 
@@ -15,9 +15,9 @@ const Projects = () => {
   const result = projectsData.filter((e) => e.id <= visbleProjects);
 
   return (
-    <section className="">
-      <h2 className="mb-8 text-3xl text-white">Projects</h2>
-      <div className="container grid grid-cols-3 gap-5">
+    <section className="px-4">
+      <h2 className="mb-14 text-center text-3xl text-white">Projects</h2>
+      <div className="container grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">
         {result.map((project, key) => {
           return <ProjectCard key={key} data={project} />;
         })}
@@ -35,22 +35,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-const ProjectCard = ({ data }) => {
-  const { title, description, imgUrl } = data;
-  return (
-    <div>
-      <div className="proj-imgbx relative overflow-hidden rounded-3xl">
-        <img src={imgUrl} className="" />
-        <div className="proj-txtx absolute left-1/2 top-[65%] w-full -translate-x-1/2 -translate-y-1/2 text-center opacity-0 duration-500 ease-in-out">
-          <h4 className="text-3xl font-bold">{title}</h4>
-          <span className="text-base font-normal italic">{description}</span>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-ProjectCard.propTypes = {
-  data: propTypes.object,
-};

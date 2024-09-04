@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 function Footer() {
   return (
-    <div className="bg-[url('./footer-bg.png')] py-10">
+    <div className="bg-[url('./footer-bg.png')] py-6 sm:py-10">
       <div className="container mx-auto flex items-center justify-center">
         <FooterLinks />
       </div>
@@ -18,7 +16,7 @@ function FooterLinks() {
       <li className="justifiy-center flex items-center">
         <a
           href="#"
-          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-4 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#3b5999] before:duration-500 hover:before:top-0"
+          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-2 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#3b5999] before:duration-500 hover:before:top-0 lg:p-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +30,7 @@ function FooterLinks() {
       <li className="justifiy-center flex items-center">
         <a
           href="#"
-          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-4 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-black before:duration-500 hover:before:top-0"
+          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-2 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-black before:duration-500 hover:before:top-0 lg:p-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +44,7 @@ function FooterLinks() {
       <li className="justifiy-center flex items-center">
         <a
           href="#"
-          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-4 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#0077b5] before:duration-500 hover:before:top-0"
+          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-2 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#0077b5] before:duration-500 hover:before:top-0 lg:p-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +58,7 @@ function FooterLinks() {
       <li className="justifiy-center flex items-center">
         <a
           href="#"
-          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-4 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#dd4b39] before:duration-500 hover:before:top-0"
+          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-2 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-[#dd4b39] before:duration-500 hover:before:top-0 lg:p-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +72,7 @@ function FooterLinks() {
       <li className="justifiy-center flex items-center">
         <a
           href="#"
-          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-4 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-black before:duration-500 hover:before:top-0"
+          className="group relative z-10 flex size-4/5 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white p-2 text-center text-4xl leading-[80px] before:absolute before:left-0 before:top-full before:z-20 before:size-full before:bg-black before:duration-500 hover:before:top-0 lg:p-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

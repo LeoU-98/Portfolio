@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" id="custom">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#000092"></stop>
+      <stop offset="1" stop-color="#ff00f3"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="1.999" x2="30" y1="15.997" y2="15.997" gradientUnits="userSpaceOnUse"></linearGradient>
+  </defs>
+  <path fill="url(#b)" d="M2.344 2A.5.5 0 0 0 2 2.5v27a.5.5 0 0 0 .5.5h27a.5.5 0 0 0 .5-.5v-27a.5.5 0 0 0-.5-.5h-27a.5.5 0 0 0-.156 0zM3 3h26v3H3V3zm1.5 1a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zm2 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zm2 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zM3 7h26v22H3V7zm16.469 4.969a.5.5 0 0 0-.125.031.5.5 0 0 0-.282.25l-7 11.969a.504.504 0 1 0 .876.5l7-11.969a.5.5 0 0 0-.47-.781zM10.5 14a.488.488 0 0 0-.344.156l-3.844 3.875c-.06.025-.107.076-.156.125a.476.476 0 0 0 0 .688c.05.049.096.1.157.125l3.843 3.875a.476.476 0 0 0 .688 0 .476.476 0 0 0 0-.688L7.188 18.5l3.656-3.656a.476.476 0 0 0 0-.688A.487.487 0 0 0 10.5 14zm11 0a.488.488 0 0 0-.344.156.476.476 0 0 0 0 .688l3.657 3.656-3.657 3.656a.476.476 0 0 0 0 .688.476.476 0 0 0 .688 0l3.843-3.875c.06-.025.108-.076.157-.125a.476.476 0 0 0 0-.688c-.05-.049-.096-.1-.157-.125l-3.843-3.875A.488.488 0 0 0 21.5 14z" color="#000" font-family="Sans" font-weight="400" overflow="visible" style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;marker:none;-inkscape-font-specification:Sans"></path>
+</svg>

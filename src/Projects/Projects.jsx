@@ -15,8 +15,8 @@ const Projects = () => {
   const result = projectsData.filter((e) => e.id <= visbleProjects);
 
   return (
-    <section className="px-4">
-      <h2 className="mb-14 text-center text-3xl text-white">Projects</h2>
+    <section className="px-4 py-6" id="projects">
+      <h2 className="mb-10 text-center text-3xl text-white">Projects</h2>
       <div className="container grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">
         {result.map((project, key) => {
           return <ProjectCard key={key} data={project} />;

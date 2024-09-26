@@ -114,35 +114,17 @@ export const projectsData = [
   },
 ];
 
-// const projectsData = [
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg1,
-//   },
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg2,
-//   },
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg3,
-//   },
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg1,
-//   },
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg2,
-//   },
-//   {
-//     title: 'Business Startup',
-//     description: 'Design & Development',
-//     imgUrl: projImg3,
-//   },
-// ];
+export const workData = [
+  {
+    title: 'Self Taught Front-End Web Developer',
+    date: {
+      start: 'July 2023',
+      end: 'Dec 2024',
+    },
+    points: [
+      'Developed responsive web applications using HTML, CSS, and JavaScript, improving user engagement by 30% across multiple platforms',
+      'Implemented modern front-end frameworks such as React  streamlining the development process and reducing page load times by 15%.',
+      'Collaborated with UX/UI designers to create intuitive interfaces, resulting in a 25% increase in user satisfaction ratings.',
+    ],
+  },
+];

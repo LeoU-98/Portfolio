@@ -1,5 +1,5 @@
 import ContactForm from './ContactForm';
-import image from '../assets/img/contact-img.svg';
+import image from '../images/contact-img.svg';
 
 function ContactMe() {
   return (

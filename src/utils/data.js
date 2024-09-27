@@ -9,34 +9,70 @@ import SDS from '../images/projects/SDS.png';
 
 export const skills = [
   {
-    title: 'frontend',
+    title: 'markup',
     skills: [
-      { skillTitle: 'HTML5', percentage: '80%' },
-      { skillTitle: 'CSS3', percentage: '60%' },
-      { skillTitle: 'Javascript', percentage: '50%' },
-      { skillTitle: 'Tailwind', percentage: '85%' },
+      { skillTitle: 'HTML5', percentage: '85%' },
+      { skillTitle: 'JSX', percentage: '90%' },
     ],
   },
 
   {
-    title: 'backend',
+    title: 'interactivity',
     skills: [
-      { skillTitle: 'Supabase', percentage: '50%' },
-      { skillTitle: 'NextJS', percentage: '10%' },
+      { skillTitle: 'Javascript', percentage: '85%' },
+      { skillTitle: 'Typescript', percentage: '30%' },
+      { skillTitle: 'React', percentage: '85%' },
+      { skillTitle: 'NextJS', percentage: '60%' },
     ],
   },
   {
-    title: 'tools',
-    skills: [{ skillTitle: 'Webpack', percentage: '30%' }],
+    title: 'styling',
+    skills: [
+      { skillTitle: 'Vanilla CSS', percentage: '90%' },
+      { skillTitle: 'Tailwind', percentage: '95%' },
+      { skillTitle: 'Sass', percentage: '60%' },
+    ],
   },
   {
     title: 'soft skills',
     skills: [
-      { skillTitle: 'Lol', percentage: '95%' },
-      { skillTitle: 'lolxd', percentage: '95%' },
+      { skillTitle: 'Web Desgin', percentage: '80%' },
+      { skillTitle: 'Time Managment', percentage: '85%' },
+      { skillTitle: 'Team Work', percentage: '85%' },
     ],
   },
 ];
+
+// export const skills = [
+//   {
+//     title: 'frontend',
+//     skills: [
+//       { skillTitle: 'HTML5', percentage: '80%' },
+//       { skillTitle: 'CSS3', percentage: '60%' },
+//       { skillTitle: 'Javascript', percentage: '50%' },
+//       { skillTitle: 'Tailwind', percentage: '85%' },
+//     ],
+//   },
+
+//   {
+//     title: 'backend',
+//     skills: [
+//       { skillTitle: 'Supabase', percentage: '50%' },
+//       { skillTitle: 'NextJS', percentage: '10%' },
+//     ],
+//   },
+//   {
+//     title: 'tools',
+//     skills: [{ skillTitle: 'Webpack', percentage: '30%' }],
+//   },
+//   {
+//     title: 'soft skills',
+//     skills: [
+//       { skillTitle: 'Lol', percentage: '95%' },
+//       { skillTitle: 'lolxd', percentage: '95%' },
+//     ],
+//   },
+// ];
 
 /////////////////////////////////////////////
 ///////////  Projects Data
@@ -77,7 +113,7 @@ export const projectsData = [
     repoLink: 'https://github.com/LeoU-98/Crypto',
     desc: {
       status: 'Static',
-      work: 'Desgin & Development',
+      work: 'Development',
       framework: 'React',
       styling: 'Tailwind CSS',
     },
@@ -90,7 +126,7 @@ export const projectsData = [
     repoLink: 'https://github.com/LeoU-98/Crypto',
     desc: {
       status: 'Static',
-      work: 'Desgin & Development',
+      work: 'Development',
       framework: 'React',
       styling: 'Tailwind CSS',
     },

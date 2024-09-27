@@ -7,7 +7,6 @@ function TechIcon({ icon }) {
         src={icon}
         alt="icon lol"
         className="w-full duration-300 hover:-translate-y-2"
-        // className="w-full ![animation-duration:_1.8s]  sm:animate-spin"
       />
     </li>
   );

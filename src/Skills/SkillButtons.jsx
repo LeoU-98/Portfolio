@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
-import frontend from '../images/skill buttons icons/frontEnd1.png';
-import backend from '../images/skill buttons icons/backEnd.png';
-import tools from '../images/skill buttons icons/tools.png';
+import markup from '../images/skill buttons icons/markup.png';
+import interactivity from '../images/skill buttons icons/interactivity.png';
+import styling from '../images/skill buttons icons/styling.png';
 import softskills from '../images/skill buttons icons/softSkills.png';
 import { skills as skillsArray } from '../utils/data.js';
 
@@ -9,25 +9,25 @@ function SkillButtons({ setSkillsData, skillsData }) {
   return (
     <ul className="grid h-fit w-8/12 min-w-72 grid-cols-2 grid-rows-2 gap-10 md:max-w-80">
       <SkillButton
-        imageSource={frontend}
-        alt={'frontend icon'}
-        text={'frontend'}
+        imageSource={markup}
+        alt={'markup icon'}
+        text={'markup'}
         setSkillsData={setSkillsData}
-        isActive={skillsData?.title?.toLowerCase() === 'frontend'}
+        isActive={skillsData?.title?.toLowerCase() === 'markup'}
       />
       <SkillButton
-        imageSource={backend}
-        alt={'backend icon'}
-        text={'backend'}
+        imageSource={interactivity}
+        alt={'interactivity icon'}
+        text={'interactivity'}
         setSkillsData={setSkillsData}
-        isActive={skillsData?.title?.toLowerCase() === 'backend'}
+        isActive={skillsData?.title?.toLowerCase() === 'interactivity'}
       />
       <SkillButton
-        imageSource={tools}
-        alt={'tools icon'}
-        text={'tools'}
+        imageSource={styling}
+        alt={'styling icon'}
+        text={'styling'}
         setSkillsData={setSkillsData}
-        isActive={skillsData?.title?.toLowerCase() === 'tools'}
+        isActive={skillsData?.title?.toLowerCase() === 'styling'}
       />
       <SkillButton
         imageSource={softskills}
@@ -37,6 +37,36 @@ function SkillButtons({ setSkillsData, skillsData }) {
         isActive={skillsData?.title?.toLowerCase() === 'soft skills'}
       />
     </ul>
+    // <ul className="grid h-fit w-8/12 min-w-72 grid-cols-2 grid-rows-2 gap-10 md:max-w-80">
+    //   <SkillButton
+    //     imageSource={frontend}
+    //     alt={'frontend icon'}
+    //     text={'frontend'}
+    //     setSkillsData={setSkillsData}
+    //     isActive={skillsData?.title?.toLowerCase() === 'frontend'}
+    //   />
+    //   <SkillButton
+    //     imageSource={backend}
+    //     alt={'backend icon'}
+    //     text={'backend'}
+    //     setSkillsData={setSkillsData}
+    //     isActive={skillsData?.title?.toLowerCase() === 'backend'}
+    //   />
+    //   <SkillButton
+    //     imageSource={tools}
+    //     alt={'tools icon'}
+    //     text={'tools'}
+    //     setSkillsData={setSkillsData}
+    //     isActive={skillsData?.title?.toLowerCase() === 'tools'}
+    //   />
+    //   <SkillButton
+    //     imageSource={softskills}
+    //     alt={'soft skills icon'}
+    //     text={'soft skills'}
+    //     setSkillsData={setSkillsData}
+    //     isActive={skillsData?.title?.toLowerCase() === 'soft skills'}
+    //   />
+    // </ul>
   );
 }
 

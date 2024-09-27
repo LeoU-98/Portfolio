@@ -1,6 +1,8 @@
-import projImg1 from '../assets/img/project-img1.png';
-import projImg2 from '../assets/img/project-img2.png';
-import projImg3 from '../assets/img/project-img3.png';
+import AnimeU from '../images/projects/AnimeU.png';
+import Plant from '../images/projects/Plant.png';
+import Crypto from '../images/projects/Crypto.png';
+import Trillio from '../images/projects/Trillio.png';
+import SDS from '../images/projects/SDS.png';
 
 /////////////////////////////////////////////
 ///////////  Skill Data
@@ -42,77 +44,74 @@ export const skills = [
 export const projectsData = [
   {
     id: 0,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg1,
+    title: 'AnimeU',
+    imgUrl: AnimeU,
+    demoLink: 'https://leou-98.github.io/AnimeU/',
+    repoLink: 'https://github.com/LeoU-98/AnimeU',
+
+    desc: {
+      status: 'Interative + 3rd Party API',
+      work: 'Desgin & Development',
+      framework: 'React',
+      styling: 'Vanllia CSS',
+    },
   },
   {
     id: 1,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg2,
+    title: 'Plant',
+    imgUrl: Plant,
+    demoLink: 'https://leou-98.github.io/LeoU-Plants/',
+    repoLink: 'https://github.com/LeoU-98/LeoU-Plants',
+    desc: {
+      status: 'Interactive',
+      work: 'Desgin & Development',
+      framework: 'React',
+      styling: 'Vanllia CSS',
+    },
   },
   {
     id: 2,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg3,
+    title: 'Crypto',
+    imgUrl: Crypto,
+    demoLink: 'https://leou-98.github.io/Crypto/',
+    repoLink: 'https://github.com/LeoU-98/Crypto',
+    desc: {
+      status: 'Static',
+      work: 'Desgin & Development',
+      framework: 'React',
+      styling: 'Tailwind CSS',
+    },
   },
   {
     id: 3,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg1,
+    title: 'Trillio',
+    imgUrl: Trillio,
+    demoLink: 'https://leou-98.github.io/Crypto/',
+    repoLink: 'https://github.com/LeoU-98/Crypto',
+    desc: {
+      status: 'Static',
+      work: 'Desgin & Development',
+      framework: 'React',
+      styling: 'Tailwind CSS',
+    },
   },
   {
     id: 4,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg2,
-  },
-  {
-    id: 5,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg3,
-  },
-  {
-    id: 6,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg1,
-  },
-  {
-    id: 7,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg2,
-  },
-  {
-    id: 8,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg3,
-  },
-  {
-    id: 9,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg1,
-  },
-  {
-    id: 10,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg2,
-  },
-  {
-    id: 10,
-    title: 'Business Startup',
-    description: 'Design & Development',
-    imgUrl: projImg3,
+    title: 'SDS App',
+    imgUrl: SDS,
+    demoLink: 'https://leou-98.github.io/SDS/',
+    repoLink: 'https://github.com/LeoU-98/SDS-APP',
+    desc: {
+      status: 'Interactive',
+      work: 'Desgin & Development',
+      framework: 'React',
+      styling: 'Tailwind CSS',
+    },
   },
 ];
+
+/////////////////////////////////////////////
+///////////  Work Data
 
 export const workData = [
   {

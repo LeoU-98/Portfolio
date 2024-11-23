@@ -1,5 +1,6 @@
 import myImage from '../images/myPic/5.jpg';
 import bannerBg from '../images/banner-bg.png';
+import cv from '../utils/Adel Mahmoud _CV.pdf';
 
 import TechIcon from './TechIcon';
 import html from '../images/icons/html.png';
@@ -25,17 +26,17 @@ function Hero() {
           <h1
             className={` ${window.innerWidth > 640 && 'animate__animated animate__bounceInDown animate__slow'} mt-6 h-12 text-3xl sm:text-2xl md:h-14 md:text-4xl lg:text-5xl 2xl:h-16`}
           >
-            I&apos;m Mohamed Hamdy
+            I&apos;m Adel Mahmoud
           </h1>
           <p
             className={`${window.innerWidth > 640 && 'animate__animated animate__bounceInLeft animate__slow'} lg max-w-[500px] text-balance text-center text-sm sm:text-left md:mt-3 lg:text-lg`}
           >
-            I&apos;m a Front-End Developer , Who Studied Computer & Systems at
+            I&apos;m a Software Engineer , Who Studied Computer & Systems at
             Faculty of Engineering Helwan University
           </p>
 
           <a
-            href="asdfasd"
+            href={cv}
             download
             className="mt-5 block rounded-xl bg-violet-700 px-4 py-2 text-xs font-semibold text-white duration-300 hover:bg-black active:translate-y-2 sm:text-sm"
           >
@@ -47,7 +48,7 @@ function Hero() {
             <img src={myImage} alt="my profile pic" className="h-full w-full" />
           </div>
 
-          <ul className="col-start-1 row-start-1 flex flex-col-reverse gap-4">
+          {/* <ul className="col-start-1 row-start-1 flex flex-col-reverse gap-4">
             <TechIcon icon={js} />
             <TechIcon icon={typescript} />
             <TechIcon icon={react} />
@@ -59,7 +60,7 @@ function Hero() {
             <TechIcon icon={sass} />
             <TechIcon icon={css} />
             <TechIcon icon={html} />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

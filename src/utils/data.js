@@ -1,8 +1,5 @@
 import AnimeU from '../images/projects/AnimeU.png';
 import Plant from '../images/projects/Plant.png';
-import Crypto from '../images/projects/Crypto.png';
-import Trillio from '../images/projects/Trillio.png';
-import SDS from '../images/projects/SDS.png';
 
 /////////////////////////////////////////////
 ///////////  Skill Data
@@ -10,35 +7,28 @@ import SDS from '../images/projects/SDS.png';
 export const skills = [
   {
     title: 'markup',
-    skills: [
-      { skillTitle: 'HTML5', percentage: '85%' },
-      { skillTitle: 'JSX', percentage: '90%' },
-    ],
+    skills: [{ skillTitle: 'HTML5', percentage: '85%' }],
   },
 
   {
-    title: 'interactivity',
+    title: 'backend',
     skills: [
-      { skillTitle: 'Javascript', percentage: '85%' },
-      { skillTitle: 'Typescript', percentage: '30%' },
-      { skillTitle: 'React', percentage: '85%' },
-      { skillTitle: 'NextJS', percentage: '60%' },
+      { skillTitle: 'C#', percentage: '90%' },
+      { skillTitle: 'SQL Server', percentage: '80%' },
+      { skillTitle: 'ASP.Net Core', percentage: '85%' },
+      { skillTitle: '.Net Framework', percentage: '80%' },
     ],
   },
   {
     title: 'styling',
-    skills: [
-      { skillTitle: 'Vanilla CSS', percentage: '90%' },
-      { skillTitle: 'Tailwind', percentage: '95%' },
-      { skillTitle: 'Sass', percentage: '60%' },
-    ],
+    skills: [{ skillTitle: 'Vanilla CSS', percentage: '60%' }],
   },
   {
     title: 'soft skills',
     skills: [
-      { skillTitle: 'Web Desgin', percentage: '80%' },
       { skillTitle: 'Time Managment', percentage: '85%' },
       { skillTitle: 'Team Work', percentage: '85%' },
+      { skillTitle: 'Communication Skills', percentage: '90%' },
     ],
   },
 ];
@@ -105,45 +95,6 @@ export const projectsData = [
       styling: 'Vanllia CSS',
     },
   },
-  {
-    id: 2,
-    title: 'Crypto',
-    imgUrl: Crypto,
-    demoLink: 'https://leou-98.github.io/Crypto/',
-    repoLink: 'https://github.com/LeoU-98/Crypto',
-    desc: {
-      status: 'Static',
-      work: 'Development',
-      framework: 'React',
-      styling: 'Tailwind CSS',
-    },
-  },
-  {
-    id: 3,
-    title: 'Trillio',
-    imgUrl: Trillio,
-    demoLink: 'https://leou-98.github.io/Crypto/',
-    repoLink: 'https://github.com/LeoU-98/Crypto',
-    desc: {
-      status: 'Static',
-      work: 'Development',
-      framework: 'React',
-      styling: 'Tailwind CSS',
-    },
-  },
-  {
-    id: 4,
-    title: 'SDS App',
-    imgUrl: SDS,
-    demoLink: 'https://leou-98.github.io/SDS/',
-    repoLink: 'https://github.com/LeoU-98/SDS-APP',
-    desc: {
-      status: 'Interactive',
-      work: 'Desgin & Development',
-      framework: 'React',
-      styling: 'Tailwind CSS',
-    },
-  },
 ];
 
 /////////////////////////////////////////////
@@ -151,15 +102,14 @@ export const projectsData = [
 
 export const workData = [
   {
-    title: 'Self Taught Front-End Web Developer',
+    title: 'Software Engineer',
     date: {
-      start: 'July 2023',
-      end: 'Dec 2024',
+      start: 'July 2022',
+      end: 'Dec 2023',
     },
     points: [
-      'Developed responsive web applications using HTML, CSS, and JavaScript, improving user engagement by 30% across multiple platforms',
-      'Implemented modern front-end frameworks such as React  streamlining the development process and reducing page load times by 15%.',
-      'Collaborated with UX/UI designers to create intuitive interfaces, resulting in a 25% increase in user satisfaction ratings.',
+      'Software Testing Engineer at Telecom Egypt ',
+      'Software Testing Engineer at ITI Internship',
     ],
   },
 ];

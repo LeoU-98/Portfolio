@@ -18,9 +18,9 @@ function SkillButtons({ setSkillsData, skillsData }) {
       <SkillButton
         imageSource={interactivity}
         alt={'interactivity icon'}
-        text={'interactivity'}
+        text={'backend'}
         setSkillsData={setSkillsData}
-        isActive={skillsData?.title?.toLowerCase() === 'interactivity'}
+        isActive={skillsData?.title?.toLowerCase() === 'backend'}
       />
       <SkillButton
         imageSource={styling}
